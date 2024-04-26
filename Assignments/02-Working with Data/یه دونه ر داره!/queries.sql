@@ -1,6 +1,15 @@
 -- Section1
-    your 1st query here
+delete
+from users
+where family not like '%m%'
+  and family not like '%d%';
 -- Section2
-    your 2nd query here
+delete
+from users
+where family = 'mohammadi'
+   or salary in (3801, 7414, 2885, 9701, 7356);
 -- Section3
-    your 3rd query here
+delete
+from users
+where family = 'booazar'
+   or year(birth_date) between 1995 and 2000

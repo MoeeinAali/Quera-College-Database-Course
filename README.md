@@ -11,14 +11,15 @@ This repository provides a curated collection of codes and learning resources fo
 - [Maintainer](#maintainer)
 
 ## Syllabus
-- **Titr**
-    - subTitr
-    - subTitr
-
-
-- **Titr**
-  - subTitr
-  - subTitr
+- Introduction
+- Getting Started with SQL
+- Working with Data
+- Working More with Data!
+- Connecting Tables Together
+- Optimizing in Data Structure and Operation
+- Advanced Topics
+- SQLAlchemy
+- SQL in Industry
 
 ## Lectures
 

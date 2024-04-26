@@ -1,5 +1,5 @@
-# {Name of Institution}-{Name of Course}
-This repository provides a curated collection of notebooks and learning resources focused on {Course Name}, sourced from {Source Name}/taught by {name}.
+## ![کوئرا](https://user-images.githubusercontent.com/49264993/137637114-e0687e95-08eb-4181-98b0-56fe515f6bc7.png)  - Database Design
+This repository provides a curated collection of codes and learning resources focused on Database Designing, sourced from Quera College.
 
 ## Table of Contents
 

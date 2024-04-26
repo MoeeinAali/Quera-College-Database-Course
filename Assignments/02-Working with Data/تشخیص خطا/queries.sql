@@ -1,6 +1,20 @@
 -- Section1
-    your 1st query here
+select *
+from hospitals
+where concat_ws(provider_number,
+                name,
+                address,
+                city,
+                state,
+                zip_code,
+                owner
+      ) like '%x%';
 -- Section2
-    your 2nd query here
+delete
+from hospitals
+where provider_number like '%x%'
+   or zip_code like '%x%';
 -- Section3
-    your 3rd query here
+UPDATE hospitals
+set name = 'PROBABLY AN ERROR'
+where name like '%x%'

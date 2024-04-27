@@ -1,6 +1,15 @@
 -- Section1
-    your 1st query here
+SELECT name
+FROM athletes
+WHERE nationality = 'Islamic Republic of Iran'
+ORDER BY name;
 -- Section2
-    your 2nd query here
+SELECT discipline, nationality, COUNT(*) AS count
+FROM athletes
+GROUP BY discipline, nationality
+ORDER BY count DESC;
 -- Section3
-    your 3rd query here
+SELECT nationality , count(*) AS count
+FROM athletes
+GROUP BY nationality
+ORDER BY count DESC;

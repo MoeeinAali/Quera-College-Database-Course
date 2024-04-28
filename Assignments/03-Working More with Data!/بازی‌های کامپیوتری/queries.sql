@@ -17,3 +17,7 @@ GROUP BY GENRE
 ORDER BY SUM(other_sales) DESC
 LIMIT 1;
 -- Section4
+SELECT name, year_of_release, other_sales, global_sales
+FROM games
+ORDER BY IF(year_of_release >= 2000, FALSE, TRUE) DESC,
+         IF(year_of_release >= 2000, global_sales, other_sales) DESC, id;
